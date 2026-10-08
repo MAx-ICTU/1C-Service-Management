@@ -1,0 +1,14 @@
+ib/
+backups/
+logs/
+work/
+*.1CD
+*.1CL
+*.dt
+*.cf
+*.cfe
+*.zip
+*.log
+.env
+.env.*
+local.settings.json
