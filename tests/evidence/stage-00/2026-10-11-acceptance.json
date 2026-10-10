@@ -1,0 +1,216 @@
+{
+  "date": "2026-10-11",
+  "runId": "stage00-20261011-accept-013020",
+  "platform": "8.5.1.1150",
+  "stageHeadBefore": "fa5b419723c6b8b262f98c1f99cc40a460424262",
+  "mainBefore": "a7d3c9abcdd2a7a8ba574df2c2cf30f7868185f5",
+  "dev": {
+    "name": "УправлениеСервиснойКомпанией",
+    "synonym": "1С: Управление сервисной компанией",
+    "version": "0.0.1",
+    "uuid": "e7257afd-f259-4e15-92f6-2ef8c0b467c9",
+    "xmlVersion": "2.21",
+    "compatibility": "Version8_5_1",
+    "runMode": "ManagedApplication",
+    "children": [
+      "Language:Русский",
+      "Subsystem:Сервис"
+    ],
+    "subsystem": {
+      "name": "Сервис",
+      "synonym": "Сервис",
+      "comment": "Учебный учёт заявок на обслуживание оборудования",
+      "uuid": "33988d88-4886-4605-b3c2-ddc6269065f3",
+      "interface": "true",
+      "content": ""
+    }
+  },
+  "roundtrip": {
+    "name": "УправлениеСервиснойКомпанией",
+    "synonym": "1С: Управление сервисной компанией",
+    "version": "0.0.1",
+    "uuid": "e7257afd-f259-4e15-92f6-2ef8c0b467c9",
+    "xmlVersion": "2.21",
+    "compatibility": "Version8_5_1",
+    "runMode": "ManagedApplication",
+    "children": [
+      "Language:Русский",
+      "Subsystem:Сервис"
+    ],
+    "subsystem": {
+      "name": "Сервис",
+      "synonym": "Сервис",
+      "comment": "Учебный учёт заявок на обслуживание оборудования",
+      "uuid": "33988d88-4886-4605-b3c2-ddc6269065f3",
+      "interface": "true",
+      "content": ""
+    }
+  },
+  "operations": [
+    {
+      "name": "check-dev",
+      "base": "dev",
+      "arguments": [
+        "DESIGNER",
+        "/F",
+        "\"C:\\Users\\maksi\\Documents\\Codex\\2026-10-08\\files-pasted-by-the-user-1-2\\outputs\\ib\\dev\"",
+        "/CheckConfig",
+        "-ConfigLogIntegrity",
+        "-IncorrectReferences",
+        "-ThinClient",
+        "-Server",
+        "-ThickClientManagedApplication",
+        "/DisableStartupDialogs",
+        "/Out",
+        "\"C:\\Users\\maksi\\Documents\\Codex\\2026-10-08\\files-pasted-by-the-user-1-2\\outputs\\logs\\stage00-20261011-accept-013020-check-dev.log\"",
+        "/DumpResult",
+        "\"C:\\Users\\maksi\\Documents\\Codex\\2026-10-08\\files-pasted-by-the-user-1-2\\outputs\\logs\\stage00-20261011-accept-013020-check-dev.result\""
+      ],
+      "exitCode": 0,
+      "platformResult": "0",
+      "logPath": "C:\\Users\\maksi\\Documents\\Codex\\2026-10-08\\files-pasted-by-the-user-1-2\\outputs\\logs\\stage00-20261011-accept-013020-check-dev.log",
+      "log": "Ошибок не обнаружено\r\n"
+    },
+    {
+      "name": "export-dev",
+      "base": "dev",
+      "arguments": [
+        "DESIGNER",
+        "/F",
+        "\"C:\\Users\\maksi\\Documents\\Codex\\2026-10-08\\files-pasted-by-the-user-1-2\\outputs\\ib\\dev\"",
+        "/DumpConfigToFiles",
+        "\"C:\\Users\\maksi\\Documents\\Codex\\2026-10-08\\files-pasted-by-the-user-1-2\\outputs\\work\\stage00-20261011-accept-013020-dev\"",
+        "-Format",
+        "Hierarchical",
+        "/DisableStartupDialogs",
+        "/Out",
+        "\"C:\\Users\\maksi\\Documents\\Codex\\2026-10-08\\files-pasted-by-the-user-1-2\\outputs\\logs\\stage00-20261011-accept-013020-export-dev.log\"",
+        "/DumpResult",
+        "\"C:\\Users\\maksi\\Documents\\Codex\\2026-10-08\\files-pasted-by-the-user-1-2\\outputs\\logs\\stage00-20261011-accept-013020-export-dev.result\""
+      ],
+      "exitCode": 0,
+      "platformResult": "0",
+      "logPath": "C:\\Users\\maksi\\Documents\\Codex\\2026-10-08\\files-pasted-by-the-user-1-2\\outputs\\logs\\stage00-20261011-accept-013020-export-dev.log",
+      "log": null
+    },
+    {
+      "name": "check-roundtrip",
+      "base": "roundtrip",
+      "arguments": [
+        "DESIGNER",
+        "/F",
+        "\"C:\\Users\\maksi\\Documents\\Codex\\2026-10-08\\files-pasted-by-the-user-1-2\\outputs\\ib\\roundtrip\"",
+        "/CheckConfig",
+        "-ConfigLogIntegrity",
+        "-IncorrectReferences",
+        "-ThinClient",
+        "-Server",
+        "-ThickClientManagedApplication",
+        "/DisableStartupDialogs",
+        "/Out",
+        "\"C:\\Users\\maksi\\Documents\\Codex\\2026-10-08\\files-pasted-by-the-user-1-2\\outputs\\logs\\stage00-20261011-accept-013020-check-roundtrip.log\"",
+        "/DumpResult",
+        "\"C:\\Users\\maksi\\Documents\\Codex\\2026-10-08\\files-pasted-by-the-user-1-2\\outputs\\logs\\stage00-20261011-accept-013020-check-roundtrip.result\""
+      ],
+      "exitCode": 0,
+      "platformResult": "0",
+      "logPath": "C:\\Users\\maksi\\Documents\\Codex\\2026-10-08\\files-pasted-by-the-user-1-2\\outputs\\logs\\stage00-20261011-accept-013020-check-roundtrip.log",
+      "log": "Ошибок не обнаружено\r\n"
+    },
+    {
+      "name": "export-roundtrip",
+      "base": "roundtrip",
+      "arguments": [
+        "DESIGNER",
+        "/F",
+        "\"C:\\Users\\maksi\\Documents\\Codex\\2026-10-08\\files-pasted-by-the-user-1-2\\outputs\\ib\\roundtrip\"",
+        "/DumpConfigToFiles",
+        "\"C:\\Users\\maksi\\Documents\\Codex\\2026-10-08\\files-pasted-by-the-user-1-2\\outputs\\work\\stage00-20261011-accept-013020-roundtrip\"",
+        "-Format",
+        "Hierarchical",
+        "/DisableStartupDialogs",
+        "/Out",
+        "\"C:\\Users\\maksi\\Documents\\Codex\\2026-10-08\\files-pasted-by-the-user-1-2\\outputs\\logs\\stage00-20261011-accept-013020-export-roundtrip.log\"",
+        "/DumpResult",
+        "\"C:\\Users\\maksi\\Documents\\Codex\\2026-10-08\\files-pasted-by-the-user-1-2\\outputs\\logs\\stage00-20261011-accept-013020-export-roundtrip.result\""
+      ],
+      "exitCode": 0,
+      "platformResult": "0",
+      "logPath": "C:\\Users\\maksi\\Documents\\Codex\\2026-10-08\\files-pasted-by-the-user-1-2\\outputs\\logs\\stage00-20261011-accept-013020-export-roundtrip.log",
+      "log": null
+    }
+  ],
+  "files": [
+    {
+      "base": "dev",
+      "path": "ConfigDumpInfo.xml",
+      "sourceSha256": "6AC51411D2F21A6ED12AA2088BF9CD820F1BAE00DD76FDCE1B38AA27C2E79359",
+      "actualSha256": "6AC51411D2F21A6ED12AA2088BF9CD820F1BAE00DD76FDCE1B38AA27C2E79359"
+    },
+    {
+      "base": "dev",
+      "path": "Configuration.xml",
+      "sourceSha256": "8C661B19C41B2BD465097A4F58C7A7CD961E31240FBE7D32A17B6F65BD77805B",
+      "actualSha256": "8C661B19C41B2BD465097A4F58C7A7CD961E31240FBE7D32A17B6F65BD77805B"
+    },
+    {
+      "base": "dev",
+      "path": "Languages/Русский.xml",
+      "sourceSha256": "C124C7C6FD95FE9002F1A101307DB24452685C61F2B1969A6A40E5CCBAC31C0F",
+      "actualSha256": "C124C7C6FD95FE9002F1A101307DB24452685C61F2B1969A6A40E5CCBAC31C0F"
+    },
+    {
+      "base": "dev",
+      "path": "Subsystems/Сервис.xml",
+      "sourceSha256": "C5453B1FFF44EE450B468ED6B1B2AAF774C2DD399693B1E6037FDB49784A0214",
+      "actualSha256": "C5453B1FFF44EE450B468ED6B1B2AAF774C2DD399693B1E6037FDB49784A0214"
+    },
+    {
+      "base": "roundtrip",
+      "path": "ConfigDumpInfo.xml",
+      "sourceSha256": "6AC51411D2F21A6ED12AA2088BF9CD820F1BAE00DD76FDCE1B38AA27C2E79359",
+      "actualSha256": "D256A9139472B1CB946E8FBBD91BD0E57DF9BBEF88836299EBF8EDE9B98261CC"
+    },
+    {
+      "base": "roundtrip",
+      "path": "Configuration.xml",
+      "sourceSha256": "8C661B19C41B2BD465097A4F58C7A7CD961E31240FBE7D32A17B6F65BD77805B",
+      "actualSha256": "8C661B19C41B2BD465097A4F58C7A7CD961E31240FBE7D32A17B6F65BD77805B"
+    },
+    {
+      "base": "roundtrip",
+      "path": "Languages/Русский.xml",
+      "sourceSha256": "C124C7C6FD95FE9002F1A101307DB24452685C61F2B1969A6A40E5CCBAC31C0F",
+      "actualSha256": "C124C7C6FD95FE9002F1A101307DB24452685C61F2B1969A6A40E5CCBAC31C0F"
+    },
+    {
+      "base": "roundtrip",
+      "path": "Subsystems/Сервис.xml",
+      "sourceSha256": "C5453B1FFF44EE450B468ED6B1B2AAF774C2DD399693B1E6037FDB49784A0214",
+      "actualSha256": "C5453B1FFF44EE450B468ED6B1B2AAF774C2DD399693B1E6037FDB49784A0214"
+    }
+  ],
+  "backupHashesVerified": true,
+  "earlierRoundtripEvidence": "2026-10-11-roundtrip.json",
+  "manualEnterpriseTest": {
+    "source": "Прямое подтверждение пользователя в чате",
+    "executor": "Пользователь проекта",
+    "date": "2026-10-11",
+    "base": "ib/roundtrip",
+    "platform": "Учебная 1С:Предприятие 8.5.1.1150",
+    "applicationOpened": true,
+    "startupErrors": false,
+    "title": "1С: Управление сервисной компанией",
+    "subsystemVisible": "Сервис",
+    "workspace": "Пустая, соответствует этапу",
+    "sessionClosed": true,
+    "independentlyObservedByCodex": false
+  },
+  "protectedDatabase": {
+    "path": "ib/dev/1Cv8Log/1Cv8.1CD",
+    "beforeSha256": "CE1BE9C23F9AF05161883F309B4B17ED41835A1873382DE23CEF1DA66FC5A3FF",
+    "afterSha256": "CE1BE9C23F9AF05161883F309B4B17ED41835A1873382DE23CEF1DA66FC5A3FF"
+  },
+  "acceptanceCriteriaPassed": true,
+  "stage01Authorized": false
+}
