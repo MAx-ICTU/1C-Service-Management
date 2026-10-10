@@ -1,0 +1,94 @@
+{
+  "date": "2026-10-11",
+  "platform": "8.5.1.1150",
+  "branch": "stage/00-bootstrap",
+  "base": "ib/dev",
+  "backupDirectory": "backups/stage00-20261011-retry",
+  "exportDirectory": "work/stage00-20261011-retry-dev",
+  "configurationUuid": "e7257afd-f259-4e15-92f6-2ef8c0b467c9",
+  "actual": {
+    "name": "Конфигурация",
+    "synonym": "",
+    "version": "",
+    "compatibilityMode": "Version8_5_1",
+    "defaultRunMode": "ManagedApplication",
+    "subsystemCount": 1,
+    "subsystem": {
+      "uuid": "33988d88-4886-4605-b3c2-ddc6269065f3",
+      "name": "Сервис",
+      "synonym": "Сервис",
+      "comment": "",
+      "includeInCommandInterface": "true",
+      "content": ""
+    }
+  },
+  "expected": {
+    "name": "УправлениеСервиснойКомпанией",
+    "synonym": "1С: Управление сервисной компанией",
+    "version": "0.0.1",
+    "subsystem": "Сервис",
+    "subsystemComment": "Учебный учёт заявок на обслуживание оборудования"
+  },
+  "operations": [
+    {
+      "name": "CheckConfig",
+      "exitCode": 0,
+      "platformResult": "0",
+      "log": "Ошибок не обнаружено",
+      "flags": [
+        "-ConfigLogIntegrity",
+        "-IncorrectReferences",
+        "-ThinClient",
+        "-Server",
+        "-ThickClientManagedApplication"
+      ]
+    },
+    {
+      "name": "DumpConfigToFiles",
+      "exitCode": 0,
+      "platformResult": "0",
+      "format": "Hierarchical"
+    }
+  ],
+  "protectedDatabase": {
+    "path": "ib/dev/1Cv8Log/1Cv8.1CD",
+    "beforeSha256": "CE1BE9C23F9AF05161883F309B4B17ED41835A1873382DE23CEF1DA66FC5A3FF",
+    "afterSha256": "CE1BE9C23F9AF05161883F309B4B17ED41835A1873382DE23CEF1DA66FC5A3FF"
+  },
+  "roundtripSha256": "3123333EB882362315AF51030C5E47C8BDC176AC51964C7078630702B8629281",
+  "backupFiles": [
+    {
+      "name": "dev.1CD",
+      "sha256": "EC232A46E5ED83E6F49A8B1D2092F3D2D8ACE96B75AEEF12E0529A19FC0362D9"
+    },
+    {
+      "name": "roundtrip.1CD",
+      "sha256": "3123333EB882362315AF51030C5E47C8BDC176AC51964C7078630702B8629281"
+    }
+  ],
+  "matchesStage00": false,
+  "roundtripExecuted": false,
+  "srcConfigPublished": false,
+  "files": [
+    {
+      "path": "ConfigDumpInfo.xml",
+      "bytes": 784,
+      "sha256": "8791FF88B200CBA29C9D21B2E479AC39390D7442FE06446E3CEA4632D611AA4D"
+    },
+    {
+      "path": "Configuration.xml",
+      "bytes": 11103,
+      "sha256": "AF7FB407F8ADFE91D17901AE173E9192440E244EA904E06573BFF28D4D3C7BB0"
+    },
+    {
+      "path": "Languages/Русский.xml",
+      "bytes": 1306,
+      "sha256": "C124C7C6FD95FE9002F1A101307DB24452685C61F2B1969A6A40E5CCBAC31C0F"
+    },
+    {
+      "path": "Subsystems/Сервис.xml",
+      "bytes": 1497,
+      "sha256": "F3F412E22CD735AC2877541059EF8486ECFF042821284DFC1A9AB8357BB15F62"
+    }
+  ]
+}
