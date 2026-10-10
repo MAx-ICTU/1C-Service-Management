@@ -1,0 +1,50 @@
+{
+  "date": "2026-10-11",
+  "platform": "8.5.1.1150",
+  "branch": "stage/00-bootstrap",
+  "base": "ib/dev",
+  "backupDirectory": "backups/stage00-20261011-before-roundtrip",
+  "devBackupSha256": "3D52D57D63F385144DBBC288DC669E607DB0B7783B1844D1DC23D2971ED3E80A",
+  "roundtripBackupSha256": "3123333EB882362315AF51030C5E47C8BDC176AC51964C7078630702B8629281",
+  "operation": "DumpConfigToFiles",
+  "exitCode": 0,
+  "platformResult": "0",
+  "format": "Hierarchical",
+  "formatVersion": "2.21",
+  "configurationUuid": "e2634437-a84f-4087-8b52-d1f0bfaac6bf",
+  "actual": {
+    "name": "Конфигурация",
+    "synonym": "",
+    "version": "",
+    "compatibilityMode": "Version8_5_1",
+    "defaultRunMode": "ManagedApplication",
+    "subsystemCount": 0
+  },
+  "expected": {
+    "name": "УправлениеСервиснойКомпанией",
+    "synonym": "1С: Управление сервисной компанией",
+    "version": "0.0.1",
+    "subsystem": "Сервис",
+    "subsystemCount": 1
+  },
+  "matchesStage00": false,
+  "roundtripExecuted": false,
+  "srcConfigPublished": false,
+  "files": [
+    {
+      "path": "ConfigDumpInfo.xml",
+      "bytes": 316,
+      "sha256": "DFEFBFC6B8B14F8844006C1797075E8745C97B48C5336D32818921DE8FDA2725"
+    },
+    {
+      "path": "Configuration.xml",
+      "bytes": 11063,
+      "sha256": "0B580580A404F3DF6E196404C4B3BEF5C63C9E5EFB09E06AE940F137A37D640E"
+    },
+    {
+      "path": "Languages/Русский.xml",
+      "bytes": 1306,
+      "sha256": "CF141A476AB97148F7F342621FF77FF5083D45607E8B23AA81E758FB65EB9D23"
+    }
+  ]
+}
