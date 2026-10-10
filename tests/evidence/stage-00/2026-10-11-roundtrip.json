@@ -1,0 +1,313 @@
+{
+  "date": "2026-10-11",
+  "platform": "8.5.1.1150",
+  "repositoryRoot": "C:\\Users\\maksi\\Documents\\Codex\\2026-10-08\\files-pasted-by-the-user-1-2\\outputs",
+  "branch": "stage/00-bootstrap",
+  "headBefore": "c0d81dadfc85a9ff4c34dc1db63b3216ca7a2cc5",
+  "inspectionDirectory": "work/stage00-20261011-roundtrip-005944-inspection",
+  "sourceDirectory": "src/config",
+  "roundtripDirectory": "work/stage00-20261011-roundtrip-005944-roundtrip",
+  "actual": {
+    "name": "УправлениеСервиснойКомпанией",
+    "synonym": "1С: Управление сервисной компанией",
+    "version": "0.0.1",
+    "uuid": "e7257afd-f259-4e15-92f6-2ef8c0b467c9",
+    "xmlVersion": "2.21",
+    "compatibility": "Version8_5_1",
+    "runMode": "ManagedApplication",
+    "children": [
+      "Language:Русский",
+      "Subsystem:Сервис"
+    ],
+    "subsystem": {
+      "name": "Сервис",
+      "synonym": "Сервис",
+      "comment": "Учебный учёт заявок на обслуживание оборудования",
+      "uuid": "33988d88-4886-4605-b3c2-ddc6269065f3",
+      "interface": "true",
+      "content": ""
+    }
+  },
+  "roundtripActual": {
+    "name": "УправлениеСервиснойКомпанией",
+    "synonym": "1С: Управление сервисной компанией",
+    "version": "0.0.1",
+    "uuid": "e7257afd-f259-4e15-92f6-2ef8c0b467c9",
+    "xmlVersion": "2.21",
+    "compatibility": "Version8_5_1",
+    "runMode": "ManagedApplication",
+    "children": [
+      "Language:Русский",
+      "Subsystem:Сервис"
+    ],
+    "subsystem": {
+      "name": "Сервис",
+      "synonym": "Сервис",
+      "comment": "Учебный учёт заявок на обслуживание оборудования",
+      "uuid": "33988d88-4886-4605-b3c2-ddc6269065f3",
+      "interface": "true",
+      "content": ""
+    }
+  },
+  "matchesStage00Metadata": true,
+  "backups": [
+    {
+      "base": "dev",
+      "path": "C:\\Users\\maksi\\Documents\\Codex\\2026-10-08\\files-pasted-by-the-user-1-2\\outputs\\backups\\stage00-20261011-roundtrip-005944\\dev.1CD",
+      "sha256": "5ECECC313BFA5415D0A42A573E7C9210B49B5A2A7C5B06EBB45CB7A484B397A6",
+      "bytes": 3309568
+    },
+    {
+      "base": "roundtrip",
+      "path": "C:\\Users\\maksi\\Documents\\Codex\\2026-10-08\\files-pasted-by-the-user-1-2\\outputs\\backups\\stage00-20261011-roundtrip-005944\\roundtrip.1CD",
+      "sha256": "3123333EB882362315AF51030C5E47C8BDC176AC51964C7078630702B8629281",
+      "bytes": 3203072
+    }
+  ],
+  "operations": [
+    {
+      "name": "inspect-dev",
+      "base": "dev",
+      "arguments": [
+        "DESIGNER",
+        "/F",
+        "\"C:\\Users\\maksi\\Documents\\Codex\\2026-10-08\\files-pasted-by-the-user-1-2\\outputs\\ib\\dev\"",
+        "/DumpConfigToFiles",
+        "\"C:\\Users\\maksi\\Documents\\Codex\\2026-10-08\\files-pasted-by-the-user-1-2\\outputs\\work\\stage00-20261011-roundtrip-005944-inspection\"",
+        "-Format",
+        "Hierarchical",
+        "/DisableStartupDialogs",
+        "/Out",
+        "\"C:\\Users\\maksi\\Documents\\Codex\\2026-10-08\\files-pasted-by-the-user-1-2\\outputs\\logs\\stage00-20261011-roundtrip-005944-inspect-dev.log\"",
+        "/DumpResult",
+        "\"C:\\Users\\maksi\\Documents\\Codex\\2026-10-08\\files-pasted-by-the-user-1-2\\outputs\\logs\\stage00-20261011-roundtrip-005944-inspect-dev.result\""
+      ],
+      "exitCode": 0,
+      "platformResult": "0",
+      "logPath": "C:\\Users\\maksi\\Documents\\Codex\\2026-10-08\\files-pasted-by-the-user-1-2\\outputs\\logs\\stage00-20261011-roundtrip-005944-inspect-dev.log",
+      "log": null
+    },
+    {
+      "name": "export-src",
+      "base": "dev",
+      "arguments": [
+        "DESIGNER",
+        "/F",
+        "\"C:\\Users\\maksi\\Documents\\Codex\\2026-10-08\\files-pasted-by-the-user-1-2\\outputs\\ib\\dev\"",
+        "/DumpConfigToFiles",
+        "\"C:\\Users\\maksi\\Documents\\Codex\\2026-10-08\\files-pasted-by-the-user-1-2\\outputs\\src\\config\"",
+        "-Format",
+        "Hierarchical",
+        "/DisableStartupDialogs",
+        "/Out",
+        "\"C:\\Users\\maksi\\Documents\\Codex\\2026-10-08\\files-pasted-by-the-user-1-2\\outputs\\logs\\stage00-20261011-roundtrip-005944-export-src.log\"",
+        "/DumpResult",
+        "\"C:\\Users\\maksi\\Documents\\Codex\\2026-10-08\\files-pasted-by-the-user-1-2\\outputs\\logs\\stage00-20261011-roundtrip-005944-export-src.result\""
+      ],
+      "exitCode": 0,
+      "platformResult": "0",
+      "logPath": "C:\\Users\\maksi\\Documents\\Codex\\2026-10-08\\files-pasted-by-the-user-1-2\\outputs\\logs\\stage00-20261011-roundtrip-005944-export-src.log",
+      "log": null
+    },
+    {
+      "name": "check-dev",
+      "base": "dev",
+      "arguments": [
+        "DESIGNER",
+        "/F",
+        "\"C:\\Users\\maksi\\Documents\\Codex\\2026-10-08\\files-pasted-by-the-user-1-2\\outputs\\ib\\dev\"",
+        "/CheckConfig",
+        "-ConfigLogIntegrity",
+        "-IncorrectReferences",
+        "-ThinClient",
+        "-Server",
+        "-ThickClientManagedApplication",
+        "/DisableStartupDialogs",
+        "/Out",
+        "\"C:\\Users\\maksi\\Documents\\Codex\\2026-10-08\\files-pasted-by-the-user-1-2\\outputs\\logs\\stage00-20261011-roundtrip-005944-check-dev.log\"",
+        "/DumpResult",
+        "\"C:\\Users\\maksi\\Documents\\Codex\\2026-10-08\\files-pasted-by-the-user-1-2\\outputs\\logs\\stage00-20261011-roundtrip-005944-check-dev.result\""
+      ],
+      "exitCode": 0,
+      "platformResult": "0",
+      "logPath": "C:\\Users\\maksi\\Documents\\Codex\\2026-10-08\\files-pasted-by-the-user-1-2\\outputs\\logs\\stage00-20261011-roundtrip-005944-check-dev.log",
+      "log": "Ошибок не обнаружено\r\n"
+    },
+    {
+      "name": "load-roundtrip",
+      "base": "roundtrip",
+      "arguments": [
+        "DESIGNER",
+        "/F",
+        "\"C:\\Users\\maksi\\Documents\\Codex\\2026-10-08\\files-pasted-by-the-user-1-2\\outputs\\ib\\roundtrip\"",
+        "/LoadConfigFromFiles",
+        "\"C:\\Users\\maksi\\Documents\\Codex\\2026-10-08\\files-pasted-by-the-user-1-2\\outputs\\src\\config\"",
+        "/DisableStartupDialogs",
+        "/Out",
+        "\"C:\\Users\\maksi\\Documents\\Codex\\2026-10-08\\files-pasted-by-the-user-1-2\\outputs\\logs\\stage00-20261011-roundtrip-005944-load-roundtrip.log\"",
+        "/DumpResult",
+        "\"C:\\Users\\maksi\\Documents\\Codex\\2026-10-08\\files-pasted-by-the-user-1-2\\outputs\\logs\\stage00-20261011-roundtrip-005944-load-roundtrip.result\""
+      ],
+      "exitCode": 0,
+      "platformResult": "0",
+      "logPath": "C:\\Users\\maksi\\Documents\\Codex\\2026-10-08\\files-pasted-by-the-user-1-2\\outputs\\logs\\stage00-20261011-roundtrip-005944-load-roundtrip.log",
+      "log": null
+    },
+    {
+      "name": "check-roundtrip",
+      "base": "roundtrip",
+      "arguments": [
+        "DESIGNER",
+        "/F",
+        "\"C:\\Users\\maksi\\Documents\\Codex\\2026-10-08\\files-pasted-by-the-user-1-2\\outputs\\ib\\roundtrip\"",
+        "/CheckConfig",
+        "-ConfigLogIntegrity",
+        "-IncorrectReferences",
+        "-ThinClient",
+        "-Server",
+        "-ThickClientManagedApplication",
+        "/DisableStartupDialogs",
+        "/Out",
+        "\"C:\\Users\\maksi\\Documents\\Codex\\2026-10-08\\files-pasted-by-the-user-1-2\\outputs\\logs\\stage00-20261011-roundtrip-005944-check-roundtrip.log\"",
+        "/DumpResult",
+        "\"C:\\Users\\maksi\\Documents\\Codex\\2026-10-08\\files-pasted-by-the-user-1-2\\outputs\\logs\\stage00-20261011-roundtrip-005944-check-roundtrip.result\""
+      ],
+      "exitCode": 0,
+      "platformResult": "0",
+      "logPath": "C:\\Users\\maksi\\Documents\\Codex\\2026-10-08\\files-pasted-by-the-user-1-2\\outputs\\logs\\stage00-20261011-roundtrip-005944-check-roundtrip.log",
+      "log": "Ошибок не обнаружено\r\n"
+    },
+    {
+      "name": "update-roundtrip",
+      "base": "roundtrip",
+      "arguments": [
+        "DESIGNER",
+        "/F",
+        "\"C:\\Users\\maksi\\Documents\\Codex\\2026-10-08\\files-pasted-by-the-user-1-2\\outputs\\ib\\roundtrip\"",
+        "/UpdateDBCfg",
+        "/DisableStartupDialogs",
+        "/Out",
+        "\"C:\\Users\\maksi\\Documents\\Codex\\2026-10-08\\files-pasted-by-the-user-1-2\\outputs\\logs\\stage00-20261011-roundtrip-005944-update-roundtrip.log\"",
+        "/DumpResult",
+        "\"C:\\Users\\maksi\\Documents\\Codex\\2026-10-08\\files-pasted-by-the-user-1-2\\outputs\\logs\\stage00-20261011-roundtrip-005944-update-roundtrip.result\""
+      ],
+      "exitCode": 0,
+      "platformResult": "0",
+      "logPath": "C:\\Users\\maksi\\Documents\\Codex\\2026-10-08\\files-pasted-by-the-user-1-2\\outputs\\logs\\stage00-20261011-roundtrip-005944-update-roundtrip.log",
+      "log": "Сбор служебной информации...\r\n\r\nПринятие изменений...\r\n\r\nОбновление конфигурации успешно завершено\r\n"
+    },
+    {
+      "name": "export-roundtrip",
+      "base": "roundtrip",
+      "arguments": [
+        "DESIGNER",
+        "/F",
+        "\"C:\\Users\\maksi\\Documents\\Codex\\2026-10-08\\files-pasted-by-the-user-1-2\\outputs\\ib\\roundtrip\"",
+        "/DumpConfigToFiles",
+        "\"C:\\Users\\maksi\\Documents\\Codex\\2026-10-08\\files-pasted-by-the-user-1-2\\outputs\\work\\stage00-20261011-roundtrip-005944-roundtrip\"",
+        "-Format",
+        "Hierarchical",
+        "/DisableStartupDialogs",
+        "/Out",
+        "\"C:\\Users\\maksi\\Documents\\Codex\\2026-10-08\\files-pasted-by-the-user-1-2\\outputs\\logs\\stage00-20261011-roundtrip-005944-export-roundtrip.log\"",
+        "/DumpResult",
+        "\"C:\\Users\\maksi\\Documents\\Codex\\2026-10-08\\files-pasted-by-the-user-1-2\\outputs\\logs\\stage00-20261011-roundtrip-005944-export-roundtrip.result\""
+      ],
+      "exitCode": 0,
+      "platformResult": "0",
+      "logPath": "C:\\Users\\maksi\\Documents\\Codex\\2026-10-08\\files-pasted-by-the-user-1-2\\outputs\\logs\\stage00-20261011-roundtrip-005944-export-roundtrip.log",
+      "log": null
+    },
+    {
+      "name": "check-updated-roundtrip",
+      "base": "roundtrip",
+      "arguments": [
+        "DESIGNER",
+        "/F",
+        "\"C:\\Users\\maksi\\Documents\\Codex\\2026-10-08\\files-pasted-by-the-user-1-2\\outputs\\ib\\roundtrip\"",
+        "/CheckConfig",
+        "-ConfigLogIntegrity",
+        "-IncorrectReferences",
+        "-ThinClient",
+        "-Server",
+        "-ThickClientManagedApplication",
+        "/DisableStartupDialogs",
+        "/Out",
+        "\"C:\\Users\\maksi\\Documents\\Codex\\2026-10-08\\files-pasted-by-the-user-1-2\\outputs\\logs\\stage00-20261011-roundtrip-005944-check-updated-roundtrip.log\"",
+        "/DumpResult",
+        "\"C:\\Users\\maksi\\Documents\\Codex\\2026-10-08\\files-pasted-by-the-user-1-2\\outputs\\logs\\stage00-20261011-roundtrip-005944-check-updated-roundtrip.result\""
+      ],
+      "exitCode": 0,
+      "platformResult": "0",
+      "logPath": "C:\\Users\\maksi\\Documents\\Codex\\2026-10-08\\files-pasted-by-the-user-1-2\\outputs\\logs\\stage00-20261011-roundtrip-005944-check-updated-roundtrip.log",
+      "log": "Ошибок не обнаружено\r\n"
+    }
+  ],
+  "files": [
+    {
+      "path": "ConfigDumpInfo.xml",
+      "bytes": 816,
+      "sha256": "6AC51411D2F21A6ED12AA2088BF9CD820F1BAE00DD76FDCE1B38AA27C2E79359",
+      "roundtripSha256": "D256A9139472B1CB946E8FBBD91BD0E57DF9BBEF88836299EBF8EDE9B98261CC"
+    },
+    {
+      "path": "Configuration.xml",
+      "bytes": 11317,
+      "sha256": "8C661B19C41B2BD465097A4F58C7A7CD961E31240FBE7D32A17B6F65BD77805B",
+      "roundtripSha256": "8C661B19C41B2BD465097A4F58C7A7CD961E31240FBE7D32A17B6F65BD77805B"
+    },
+    {
+      "path": "Languages/Русский.xml",
+      "bytes": 1306,
+      "sha256": "C124C7C6FD95FE9002F1A101307DB24452685C61F2B1969A6A40E5CCBAC31C0F",
+      "roundtripSha256": "C124C7C6FD95FE9002F1A101307DB24452685C61F2B1969A6A40E5CCBAC31C0F"
+    },
+    {
+      "path": "Subsystems/Сервис.xml",
+      "bytes": 1597,
+      "sha256": "C5453B1FFF44EE450B468ED6B1B2AAF774C2DD399693B1E6037FDB49784A0214",
+      "roundtripSha256": "C5453B1FFF44EE450B468ED6B1B2AAF774C2DD399693B1E6037FDB49784A0214"
+    }
+  ],
+  "dumpInfoComparison": {
+    "onlyConfigVersionDiff": true,
+    "metadata": [
+      {
+        "name": "Configuration.УправлениеСервиснойКомпанией",
+        "uuid": "e7257afd-f259-4e15-92f6-2ef8c0b467c9",
+        "sourceVersion": "66f46f620b0b4e48b119aae41dd962c500000000",
+        "roundtripVersion": "a2dddb388a0da044a8b3d5acae98530400000000"
+      },
+      {
+        "name": "Language.Русский",
+        "uuid": "55281907-6bc0-43a0-856f-92737453cf15",
+        "sourceVersion": "f463f71ddf30254bb457e4113cd0610b00000000",
+        "roundtripVersion": "d1639fe99ab67c46b5ec9494d28ffdc400000000"
+      },
+      {
+        "name": "Subsystem.Сервис",
+        "uuid": "33988d88-4886-4605-b3c2-ddc6269065f3",
+        "sourceVersion": "ad6ba963abb1ea44a9ab4e6b6b17d73400000000",
+        "roundtripVersion": "9d9cd8ec1197bc40abb75a1fe54263e700000000"
+      }
+    ]
+  },
+  "protectedDatabase": {
+    "path": "ib/dev/1Cv8Log/1Cv8.1CD",
+    "beforeSha256": "CE1BE9C23F9AF05161883F309B4B17ED41835A1873382DE23CEF1DA66FC5A3FF",
+    "afterSha256": "CE1BE9C23F9AF05161883F309B4B17ED41835A1873382DE23CEF1DA66FC5A3FF"
+  },
+  "roundtripFile": {
+    "beforeSha256": "3123333EB882362315AF51030C5E47C8BDC176AC51964C7078630702B8629281",
+    "afterSha256": "218B85C0EC8B6BD33567318A99D065CF42E85BEE374FB370EAB4E47056AC394B"
+  },
+  "enterpriseSmoke": {
+    "executed": false,
+    "verified": false,
+    "reason": "Windows automation initialization failed twice: trusted Node process exited unexpectedly; runtime UI not inspected",
+    "manualRequired": "Open ib/roundtrip in Enterprise 8.5.1.1150, confirm application opens without errors, then close session"
+  },
+  "technicalRoundtripPassed": true,
+  "readyForAcceptance": false,
+  "stage01Started": false
+}
