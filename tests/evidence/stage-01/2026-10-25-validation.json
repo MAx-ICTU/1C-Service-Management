@@ -1,13 +1,17 @@
 {
   "functional": {
-    "skipped": 1,
-    "nonemptyUuid": "pending native user-administration confirmation in isolated role-enabled test database",
+    "skipped": 0,
+    "nonemptyUuid": "passed: own reference, active duplicate, reactivation, deletion-marked active duplicate; real fixture user without roles",
     "method": "native EPF, direct server object writes on a separate fresh database",
     "failed": 0,
-    "passed": 42
+    "passed": 48,
+    "database": "stage01-functional-users-final03",
+    "completed": true,
+    "runTimestampMoscow": "2026-10-25T21:55:00+03:00",
+    "testEnvironment": "isolated native role-enabled copy; all 8 catalog XML/module files identical to src/config; setup creates admin and a separate user with no roles"
   },
   "originalDatabasesUnchanged": true,
-  "baseCommit": "0a34ff2ed0f5089cdc0b92eadf4a5f406150307d",
+  "baseCommit": "bb3cffb543ab03acf78f15d6b6abecb4355724d0",
   "platform": "8.5.1.1150",
   "date": "2026-10-25",
   "roundtrip": {
@@ -97,5 +101,23 @@
     ],
     "testEpf": 11,
     "testForm": 14
-  }
+  },
+  "testFixtureFiles": [
+    {
+      "sha256": "1D200CA95920A2E22C148145C26C4744F555EE6DB5D67AD66442A32B9ACD6492",
+      "path": "ПроверкаЭтапа01.xml"
+    },
+    {
+      "sha256": "843DDA12B842AA9475C4D3FB51556E0186D3B7D2DDBA8297DF1B46D2840494CD",
+      "path": "ПроверкаЭтапа01/Forms/Форма.xml"
+    },
+    {
+      "sha256": "EA3ADD4B34F40277E8E92C436000EE890665A02E5574DE59DB06BC80F5DC516E",
+      "path": "ПроверкаЭтапа01/Forms/Форма/Ext/Form.xml"
+    },
+    {
+      "sha256": "163D00D2A4ABF860C14F36B8CB28356941DF10509DFEEB8D1DCDF17A632EBD9B",
+      "path": "ПроверкаЭтапа01/Forms/Форма/Ext/Form/Module.bsl"
+    }
+  ]
 }
