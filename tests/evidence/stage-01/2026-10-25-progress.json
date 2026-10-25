@@ -1,0 +1,76 @@
+{
+  "date": "2026-10-25",
+  "status": "work-in-progress",
+  "source": "native Designer DumpConfigToFiles",
+  "platform": "8.5.1.1150",
+  "configurationVersion": "0.0.2",
+  "format": "Hierarchical 2.21",
+  "dumpExitCode": 0,
+  "structuralValidation": {
+    "catalogChecks": [
+      13,
+      13,
+      13,
+      14
+    ],
+    "catalogsPassed": 4,
+    "configurationChecks": 9
+  },
+  "bslAnalysis": "not performed",
+  "functionalTests": "not performed",
+  "roundTrip": "not performed",
+  "files": [
+    {
+      "path": "ConfigDumpInfo.xml",
+      "sha256": "58D9B4329CA2218F54034C00AA35EA5BA8D168D922BFA3A70953AB97DEC9EDFA"
+    },
+    {
+      "path": "Configuration.xml",
+      "sha256": "37CEB403A9A501707AA7ED6A45A6555E614FF268A81E3503B5151438FB7BFA8C"
+    },
+    {
+      "path": "Catalogs/ВидыРабот.xml",
+      "sha256": "D82110FE03847F4C6B52EADEEAF679D9FFB0C8F72F975BA38633F0EA31AC7765"
+    },
+    {
+      "path": "Catalogs/Инженеры.xml",
+      "sha256": "5FC4A2F1310C35F60AEE9DDD75D4386313DD1F8B92CEFC51AF60EBDEC1F0CACF"
+    },
+    {
+      "path": "Catalogs/Клиенты.xml",
+      "sha256": "4C8A7AB1A5CABF4E149BC940BFA3F3E129E9E6870A38D080C75AE3E83007F00B"
+    },
+    {
+      "path": "Catalogs/Оборудование.xml",
+      "sha256": "EABA2B46BD4EE27E0CAB26CD2E7A7CB305F85763EA5AD854DD998BDF0EC57C35"
+    },
+    {
+      "path": "Catalogs/ВидыРабот/Ext/ObjectModule.bsl",
+      "sha256": "5C795F261676ECEF8AC7A584E2E2C5D7FA493F1B7C5127C6174C4CE60EAB55A2"
+    },
+    {
+      "path": "Catalogs/Инженеры/Ext/ObjectModule.bsl",
+      "sha256": "5C795F261676ECEF8AC7A584E2E2C5D7FA493F1B7C5127C6174C4CE60EAB55A2"
+    },
+    {
+      "path": "Catalogs/Клиенты/Ext/ObjectModule.bsl",
+      "sha256": "009299927E33B30767B73F28F28AC86052AD2E1B242B0D4CBF730009E3A8BBC0"
+    },
+    {
+      "path": "Catalogs/Оборудование/Ext/ObjectModule.bsl",
+      "sha256": "5C795F261676ECEF8AC7A584E2E2C5D7FA493F1B7C5127C6174C4CE60EAB55A2"
+    },
+    {
+      "path": "Languages/Русский.xml",
+      "sha256": "C124C7C6FD95FE9002F1A101307DB24452685C61F2B1969A6A40E5CCBAC31C0F"
+    },
+    {
+      "path": "Subsystems/НормативныеДанные.xml",
+      "sha256": "40BF9C6BAFA124D95B87EB14033C0F37F37F59BD2C84E4ED67AF45353EE5D748"
+    },
+    {
+      "path": "Subsystems/Сервис.xml",
+      "sha256": "C5453B1FFF44EE450B468ED6B1B2AAF774C2DD399693B1E6037FDB49784A0214"
+    }
+  ]
+}

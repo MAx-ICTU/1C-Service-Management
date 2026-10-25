@@ -1,0 +1,43 @@
+{
+  "dateMoscow": "2026-10-25",
+  "stage": "01-catalogs",
+  "status": "accepted",
+  "decisionSource": "direct user message in acceptance chat",
+  "userDecision": "Этап 01 принимаю. Также обнови гитхаб главную ветку, что сделали",
+  "acceptedImplementationCommit": "de81ad95d4448fee2ba0cda79f38c3c219f6c4ea",
+  "pullRequest": "https://github.com/MAx-ICTU/1C-Service-Management/pull/3",
+  "configurationVersion": "0.0.2",
+  "platformVersion": "8.5.1.1150",
+  "scope": [
+    "R1-TC-01",
+    "available part of R1-TC-02",
+    "R1-TC-15 native round-trip"
+  ],
+  "functional": {
+    "passed": 48,
+    "failed": 0,
+    "skipped": 0,
+    "completed": true,
+    "source": "2026-10-25-functional.json",
+    "newRunDuringAcceptanceReview": false
+  },
+  "acceptanceReview": {
+    "structuralChecks": 75,
+    "errors": 0,
+    "warnings": 0,
+    "configurationHashesMatched": 13,
+    "fixtureHashesMatched": 4,
+    "blockingFindings": 0
+  },
+  "authorization": {
+    "updateMainThroughPR3": true,
+    "stage02Implementation": false,
+    "tagCreationRequested": false
+  },
+  "limits": [
+    "User acceptance is not a new manual UI test",
+    "Engineer user selection and application roles remain stage 03",
+    "BSL Language Server not run",
+    "Concurrency and production load not tested"
+  ]
+}
