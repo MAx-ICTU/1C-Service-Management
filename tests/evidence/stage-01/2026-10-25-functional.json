@@ -1,0 +1,217 @@
+﻿[
+{
+"test": "client-default-active",
+"passed": true,
+"details": ""
+},
+{
+"test": "client-round-read",
+"passed": true,
+"details": ""
+},
+{
+"test": "client-no-contacts",
+"passed": true,
+"details": ""
+},
+{
+"test": "empty-name-Клиенты",
+"passed": true,
+"details": "Укажите наименование клиента.\n{ВнешняяОбработка.ПроверкаЭтапа01.Форма.Форма.Форма(40)}: Ошибка при вызове метода контекста (Записать): Не удалось записать: \"Клиенты\"!"
+},
+{
+"test": "default-active-Клиенты",
+"passed": true,
+"details": ""
+},
+{
+"test": "empty-name-Инженеры",
+"passed": true,
+"details": "Укажите наименование инженера.\n{ВнешняяОбработка.ПроверкаЭтапа01.Форма.Форма.Форма(40)}: Ошибка при вызове метода контекста (Записать): Не удалось записать: \"Инженеры\"!"
+},
+{
+"test": "default-active-Инженеры",
+"passed": true,
+"details": ""
+},
+{
+"test": "empty-name-ВидыРабот",
+"passed": true,
+"details": "Укажите наименование вида работ.\n{ВнешняяОбработка.ПроверкаЭтапа01.Форма.Форма.Форма(40)}: Ошибка при вызове метода контекста (Записать): Не удалось записать: \"Виды работ\"!"
+},
+{
+"test": "default-active-ВидыРабот",
+"passed": true,
+"details": ""
+},
+{
+"test": "empty-name-Оборудование",
+"passed": true,
+"details": "Укажите наименование оборудования.\nУкажите клиента оборудования.\nУкажите модель оборудования.\nУкажите хотя бы один номер: инвентарный или серийный.\n{ВнешняяОбработка.ПроверкаЭтапа01.Форма.Форма.Форма(40)}: Ошибка при вызове метода контекста (Записать): Не удалось записать: \"Оборудование\"!"
+},
+{
+"test": "default-active-Оборудование",
+"passed": true,
+"details": ""
+},
+{
+"test": "engineers-empty-uuid",
+"passed": true,
+"details": ""
+},
+{
+"test": "engineer-inactive-preserved",
+"passed": true,
+"details": ""
+},
+{
+"test": "engineer-fields-preserved",
+"passed": true,
+"details": ""
+},
+{
+"test": "engineer-nonempty-uuid",
+"passed": null,
+"details": "Нет пользователей ИБ. Учётные связи для теста не выдумывались."
+},
+{
+"test": "norm-zero",
+"passed": true,
+"details": ""
+},
+{
+"test": "norm-fraction",
+"passed": true,
+"details": ""
+},
+{
+"test": "norm-negative",
+"passed": true,
+"details": "Норматив часов не может быть отрицательным.\n{ВнешняяОбработка.ПроверкаЭтапа01.Форма.Форма.Форма(40)}: Ошибка при вызове метода контекста (Записать): Не удалось записать \"Диагностика (Виды работ)\"!"
+},
+{
+"test": "work-inactive-description-preserved",
+"passed": true,
+"details": ""
+},
+{
+"test": "equipment-round-read",
+"passed": true,
+"details": ""
+},
+{
+"test": "inventory-excludes-self",
+"passed": true,
+"details": ""
+},
+{
+"test": "inventory-case-trim",
+"passed": true,
+"details": "У этого клиента уже есть оборудование с таким инвентарным номером.\n{ВнешняяОбработка.ПроверкаЭтапа01.Форма.Форма.Форма(40)}: Ошибка при вызове метода контекста (Записать): Не удалось записать: \"Оборудование\"!"
+},
+{
+"test": "inventory-other-client",
+"passed": true,
+"details": ""
+},
+{
+"test": "inventory-inactive",
+"passed": true,
+"details": "У этого клиента уже есть оборудование с таким инвентарным номером.\n{ВнешняяОбработка.ПроверкаЭтапа01.Форма.Форма.Форма(40)}: Ошибка при вызове метода контекста (Записать): Не удалось записать: \"Оборудование\"!"
+},
+{
+"test": "inventory-deletion-mark",
+"passed": true,
+"details": "У этого клиента уже есть оборудование с таким инвентарным номером.\n{ВнешняяОбработка.ПроверкаЭтапа01.Форма.Форма.Форма(40)}: Ошибка при вызове метода контекста (Записать): Не удалось записать: \"Оборудование\"!"
+},
+{
+"test": "equipment-inactive-preserved",
+"passed": true,
+"details": ""
+},
+{
+"test": "equipment-client-required",
+"passed": true,
+"details": "Укажите клиента оборудования.\n{ВнешняяОбработка.ПроверкаЭтапа01.Форма.Форма.Форма(40)}: Ошибка при вызове метода контекста (Записать): Не удалось записать: \"Оборудование\"!"
+},
+{
+"test": "equipment-model-required",
+"passed": true,
+"details": "Укажите модель оборудования.\n{ВнешняяОбработка.ПроверкаЭтапа01.Форма.Форма.Форма(40)}: Ошибка при вызове метода контекста (Записать): Не удалось записать: \"Оборудование\"!"
+},
+{
+"test": "equipment-number-required",
+"passed": true,
+"details": "Укажите хотя бы один номер: инвентарный или серийный.\n{ВнешняяОбработка.ПроверкаЭтапа01.Форма.Форма.Форма(40)}: Ошибка при вызове метода контекста (Записать): Не удалось записать: \"Оборудование\"!"
+},
+{
+"test": "serial-warning-global-inactive-marked",
+"passed": true,
+"details": "Найдено оборудование с таким производителем и серийным номером. Запись разрешена.\n"
+},
+{
+"test": "serial-warning-empty-manufacturer",
+"passed": true,
+"details": "Найдено оборудование с таким серийным номером без указанного производителя. Запись разрешена.\n"
+},
+{
+"test": "serial-warning-excludes-self-and-detects-other",
+"passed": true,
+"details": ""
+},
+{
+"test": "serial-different-manufacturer-no-warning",
+"passed": true,
+"details": ""
+},
+{
+"test": "serial-only-self-no-warning",
+"passed": true,
+"details": ""
+},
+{
+"test": "inventory-inner-spaces-preserved",
+"passed": true,
+"details": ""
+},
+{
+"test": "client-deactivation-keeps-reference",
+"passed": true,
+"details": ""
+},
+{
+"test": "client-marking-keeps-reference",
+"passed": true,
+"details": ""
+},
+{
+"test": "client-physical-delete-blocked",
+"passed": true,
+"details": "Нельзя удалить клиента: на него ссылается оборудование. Можно отключить признак Активен.\n{ВнешняяОбработка.ПроверкаЭтапа01.Форма.Форма.Форма(38)}: Ошибка при вызове метода контекста (Удалить): Не удалось удалить \"Альфа (Клиенты)\"!"
+},
+{
+"test": "client-still-exists",
+"passed": true,
+"details": ""
+},
+{
+"test": "client-string-boundaries",
+"passed": true,
+"details": ""
+},
+{
+"test": "equipment-string-boundaries",
+"passed": true,
+"details": ""
+},
+{
+"test": "date-without-time",
+"passed": true,
+"details": ""
+},
+{
+"test": "completed",
+"passed": true,
+"details": ""
+}
+]

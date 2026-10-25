@@ -1,0 +1,34 @@
+[
+  {
+    "path": "Catalogs/ВидыРабот.xml",
+    "equal": true
+  },
+  {
+    "path": "Catalogs/Инженеры.xml",
+    "equal": true
+  },
+  {
+    "path": "Catalogs/Клиенты.xml",
+    "equal": true
+  },
+  {
+    "path": "Catalogs/Оборудование.xml",
+    "equal": true
+  },
+  {
+    "path": "Catalogs/ВидыРабот/Ext/ObjectModule.bsl",
+    "equal": true
+  },
+  {
+    "path": "Catalogs/Инженеры/Ext/ObjectModule.bsl",
+    "equal": true
+  },
+  {
+    "path": "Catalogs/Клиенты/Ext/ObjectModule.bsl",
+    "equal": true
+  },
+  {
+    "path": "Catalogs/Оборудование/Ext/ObjectModule.bsl",
+    "equal": true
+  }
+]
