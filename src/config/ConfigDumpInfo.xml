@@ -1,8 +1,42 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.21">
 	<ConfigVersions>
-		<Metadata name="Configuration.УправлениеСервиснойКомпанией" id="e7257afd-f259-4e15-92f6-2ef8c0b467c9" configVersion="66f46f620b0b4e48b119aae41dd962c500000000"/>
+		<Metadata name="Catalog.ВидыРабот" id="c9a2a94c-8040-45f4-82ca-e234d9f9230c" configVersion="a21cdc51d0ae5946b3071a96ed52c53a00000000">
+			<Metadata name="Catalog.ВидыРабот.Attribute.Описание" id="2cbb906e-07ac-40f3-b2e6-e5c5b2c83306"/>
+			<Metadata name="Catalog.ВидыРабот.Attribute.НормативЧасов" id="7e048b80-3dc0-4408-9062-0b66cacea01a"/>
+			<Metadata name="Catalog.ВидыРабот.Attribute.Активен" id="ad0826bd-d3d7-479b-89ed-9f736b6687e1"/>
+		</Metadata>
+		<Metadata name="Catalog.ВидыРабот.ObjectModule" id="c9a2a94c-8040-45f4-82ca-e234d9f9230c.0" configVersion="ee3747623e9bcf40b03d8c698ae6f03600000000"/>
+		<Metadata name="Catalog.Инженеры" id="d68c8a5c-dfe8-4e1b-b6d9-5f340a8be3c9" configVersion="c526beefeed5004fa0f6a0952235d4e800000000">
+			<Metadata name="Catalog.Инженеры.Attribute.Телефон" id="0fad030f-0d0c-48ab-ac48-3e610468d04d"/>
+			<Metadata name="Catalog.Инженеры.Attribute.Активен" id="3d369c83-17cb-4864-851c-2469b26fc12c"/>
+			<Metadata name="Catalog.Инженеры.Attribute.ИдентификаторПользователяИБ" id="cd3d32fb-993d-4a6d-a5ca-bebe9d994ea0"/>
+			<Metadata name="Catalog.Инженеры.Attribute.Специализация" id="f0e6f13f-342c-4a01-ad95-e284e3ebbf3f"/>
+		</Metadata>
+		<Metadata name="Catalog.Инженеры.ObjectModule" id="d68c8a5c-dfe8-4e1b-b6d9-5f340a8be3c9.0" configVersion="4f3dd8f7874146458e0a178ea8f22b8600000000"/>
+		<Metadata name="Catalog.Клиенты" id="2d093f8c-8299-4f8d-a248-4f9546a3f3a5" configVersion="20b3c25e9ff5184eb9d7afdf0cb5f88000000000">
+			<Metadata name="Catalog.Клиенты.Attribute.Комментарий" id="1c24bb84-27ce-4710-bee8-19fc37c55c62"/>
+			<Metadata name="Catalog.Клиенты.Attribute.Телефон" id="26c8536b-528a-4a55-afe2-82b4a4bda388"/>
+			<Metadata name="Catalog.Клиенты.Attribute.Адрес" id="4a40a458-1e39-49a8-a458-5f05401ab9ca"/>
+			<Metadata name="Catalog.Клиенты.Attribute.ЭлектроннаяПочта" id="697c5dd5-5116-420c-ab6e-08a7f75a9aed"/>
+			<Metadata name="Catalog.Клиенты.Attribute.Активен" id="6dfe7b2b-8906-4eca-8bd0-30e6c674b928"/>
+		</Metadata>
+		<Metadata name="Catalog.Клиенты.ObjectModule" id="2d093f8c-8299-4f8d-a248-4f9546a3f3a5.0" configVersion="6a19e0fc31b29248a34bbcaf8d9611ce00000000"/>
+		<Metadata name="Catalog.Оборудование" id="7fa5a417-ba0f-4368-853c-db49125e7f59" configVersion="e3a4163012179e43a6861798d87da7a800000000">
+			<Metadata name="Catalog.Оборудование.Attribute.Модель" id="068ff219-8bbb-46d2-aaa6-5870ffa0e070"/>
+			<Metadata name="Catalog.Оборудование.Attribute.СерийныйНомер" id="1490fb4c-db6f-431d-a256-63477729e55d"/>
+			<Metadata name="Catalog.Оборудование.Attribute.ИнвентарныйНомер" id="205eeeec-29b1-4261-8744-cf7e2832f2ca"/>
+			<Metadata name="Catalog.Оборудование.Attribute.Комментарий" id="5e94840a-fdbb-48ec-983a-baae4db277f4"/>
+			<Metadata name="Catalog.Оборудование.Attribute.АдресУстановки" id="6f6a1ac8-8457-4a2f-8195-8769fcbd455b"/>
+			<Metadata name="Catalog.Оборудование.Attribute.Производитель" id="94661855-7982-4714-bdd5-2cb418522854"/>
+			<Metadata name="Catalog.Оборудование.Attribute.ДатаУстановки" id="e6a7fff1-aa05-47ef-bf10-1bf85782db1e"/>
+			<Metadata name="Catalog.Оборудование.Attribute.Активен" id="f67ff2e1-da21-4f70-8598-95bfbdaabb92"/>
+			<Metadata name="Catalog.Оборудование.Attribute.Клиент" id="fa9a47bc-d2c9-4f5d-b369-73f9daf60a5f"/>
+		</Metadata>
+		<Metadata name="Catalog.Оборудование.ObjectModule" id="7fa5a417-ba0f-4368-853c-db49125e7f59.0" configVersion="a2b16e8b05d86d428c0d42818bb6f41700000000"/>
+		<Metadata name="Configuration.УправлениеСервиснойКомпанией" id="e7257afd-f259-4e15-92f6-2ef8c0b467c9" configVersion="b862962857553043854d1bbd21b480cb00000000"/>
 		<Metadata name="Language.Русский" id="55281907-6bc0-43a0-856f-92737453cf15" configVersion="f463f71ddf30254bb457e4113cd0610b00000000"/>
+		<Metadata name="Subsystem.НормативныеДанные" id="1a65f97e-9b89-45a1-8b3d-746be8a5494f" configVersion="97d366075fd3734f9bbfb1991f52ae8b00000000"/>
 		<Metadata name="Subsystem.Сервис" id="33988d88-4886-4605-b3c2-ddc6269065f3" configVersion="ad6ba963abb1ea44a9ab4e6b6b17d73400000000"/>
 	</ConfigVersions>
 </ConfigDumpInfo>
